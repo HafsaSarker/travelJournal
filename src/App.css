@@ -1,18 +1,67 @@
-nav{
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav{
+  width: 100%;
   background-color: #F55A5A;
   box-shadow: 0 4px 6px 1px #e4e4e4;
 }
-nav span, p {
+.nav span, 
+.nav p {
   padding: 10px 0px;
   text-align: center;
   vertical-align: middle;
   color: #FFFFFF;
 }
 
-nav span {
+.nav span {
   font-size: 3rem;
 }
 
-nav p{
+.nav p{
   font-size: 18px;
+}
+
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding: 10px 20px;
+  margin: 20px 30px;
+  max-width: 1200px;
+  color: #2B283A;
+}
+
+.icon{
+  color: #F55A5A;
+  vertical-align: bottom;
+}
+
+.card img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.card h1{
+  font-size: 25px;
+  margin-bottom: 18px;
+}
+.place-header{
+  font-size: 15px;
+  display: flex;
+  gap: 15px;
+  margin-bottom: 5px;
+}
+.place-header a{
+  font-size: 14px;
+  color: #918E9B;
+}
+.dates{
+  font-weight: 600;
+  margin-bottom: 6px;
 }
